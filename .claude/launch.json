@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cinema-analyzer",
+      "runtimeExecutable": "C:/Users/User/anaconda3/python.exe",
+      "runtimeArgs": ["-m", "http.server", "8765", "--bind", "127.0.0.1", "--directory", "C:/Users/User/Downloads/adie-20261103T141647Z-1-001/adie/cinema-ticket-analyzer"],
+      "port": 8765
+    },
+    {
+      "name": "optics-lab-figma",
+      "runtimeExecutable": "C:/Users/User/anaconda3/python.exe",
+      "runtimeArgs": ["-m", "http.server", "8766", "--bind", "127.0.0.1", "--directory", "C:/Users/User/Downloads/Lyan/optics-lab-figma"],
+      "port": 8766
+    }
+  ]
+}

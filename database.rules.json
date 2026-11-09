@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "scores": {
+      ".read": true,
+      "$player": {
+        ".write": true,
+        ".validate": "newData.hasChildren(['name','best','time','attempts','date']) && newData.child('name').isString() && newData.child('name').val().length <= 24 && newData.child('best').isNumber() && newData.child('best').val() >= 0 && newData.child('best').val() <= 15 && newData.child('time').isNumber() && newData.child('attempts').isNumber() && newData.child('date').isNumber()"
+      }
+    }
+  }
+}

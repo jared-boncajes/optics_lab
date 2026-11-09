@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Optics Lab</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Home page: top navigation, no sidebar -->
+<div id="landing" hidden></div>
+
+<!-- Every other page: one sidebar, rendered once from the LESSONS list -->
+<div id="shell" hidden>
+  <div id="topbar"><button class="iconbtn" id="openMenu" aria-label="Open menu" aria-expanded="false"></button><span class="brand-sm"></span></div>
+  <aside id="side" aria-label="Main navigation"></aside>
+  <div id="scrim"></div>
+  <main id="main"></main>
+</div>
+
+<script src="config.js"></script>
+<script src="lessons.js"></script>
+<script src="quizdata.js"></script>
+<script src="sims.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
