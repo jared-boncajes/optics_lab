@@ -80,7 +80,7 @@ section>h2{font-size:1.7rem;font-weight:700;margin:26px 0 12px}
 .kf-note{font-size:.76rem!important;color:var(--mute);margin:12px 0 0!important}
 #nature .key-idea{max-width:500px;margin:22px 0 0}
 #nature .key-idea h3{margin:0 0 18px}
-#nature .key-idea img{display:block;width:100%;height:auto;background:#fff}
+#nature .key-idea img{display:block;width:100%;height:auto;aspect-ratio:720/325;object-fit:contain}
 #nature .key-idea figcaption{margin-top:50px;text-align:center;color:var(--mute)}
 .more{margin-top:26px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:34px}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
